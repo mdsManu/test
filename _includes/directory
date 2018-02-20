@@ -1,1 +1,0 @@
-{% assign filename = include.url | split:'/' | last %}{{ include.url | remove:filename | replace:'//','/' }}
