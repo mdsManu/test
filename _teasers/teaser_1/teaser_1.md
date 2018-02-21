@@ -1,9 +1,9 @@
 ---
 layout: teaser
 
-name: Intelligente Lï¿½sungen
-text: <h1>Intelligente Lï¿½sungen</h1>
-<p>Ob Event- oder Facility Management, professionelle Beratung oder Systemanpassung, Schnittstellen-Design oder Business Intelligence, Serverhosting oder Support: Bei <company>more dimensions</company> erhalten Sie integrierte Werkzeuge und eine nachhaltige Betreuung fï¿½r Ihren Arbeitsalltag. Durch die Kombination von Standardlï¿½sungen fï¿½r Ihre Branche und individueller Anpassung befreien wir Ihre Mitarbeiter von Dingen, die eine intelligente Software fï¿½r Sie erledigen kann ï¿½ damit Sie sich wieder jenen Tï¿½tigkeiten widmen kï¿½nnen, bei denen der Mensch gefragt ist.</p>
+name: Intelligente Lösungen
+text: <h1>Intelligente Lösungen</h1>
+<p>Ob Event- oder Facility Management, professionelle Beratung oder Systemanpassung, Schnittstellen-Design oder Business Intelligence, Serverhosting oder Support: Bei <company>more dimensions</company> erhalten Sie integrierte Werkzeuge und eine nachhaltige Betreuung für Ihren Arbeitsalltag. Durch die Kombination von Standardlösungen für Ihre Branche und individueller Anpassung befreien wir Ihre Mitarbeiter von Dingen, die eine intelligente Software für Sie erledigen kann – damit Sie sich wieder jenen Tätigkeiten widmen können, bei denen der Mensch gefragt ist.</p>
 
 000000e9:00014261
 images: 
