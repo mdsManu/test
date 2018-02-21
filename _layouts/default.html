@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "de" }}">
+
+  {% include head.html %}
+
+  <body>
+    <!-- Header -->
+
+    {% include teamviewer.html %}
+
+    {% include banner.html %}
+
+    {% include nav.html %}
+
+    {% include slide_out_nav.html %}
+
+    {{ content }}
+
+    <!-- Footer -->
+
+    {% include footer.html %}
+
+  </body>
+
+</html>
