@@ -1,0 +1,45 @@
+<div class="parallax-container" style="z-index: 0">
+  <div class="parallax"><img src="banner_wien.png" alt=""></div>
+</div>
+
+<div class="container news-container">
+  <div class="row">
+
+    <h2 class="center">Neuigkeiten</h2>
+
+    <hr>
+
+    <div class="col s12">
+      <div class="container">
+        <div class="row">
+
+          {% for news in site.news %}
+
+          <div class="col 12 news-header">
+            <div class="row">
+              <div class="col s12">
+                <img src="banner_wien.png" alt="">
+              </div>
+              <div class="col s12">
+                <h5>{{ news.header }}</h5>
+                <p>{{ news.news-text }}</p>
+              </div>
+            </div>
+          </div>
+
+          {% endfor %}
+
+
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+</script>

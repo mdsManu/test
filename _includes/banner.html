@@ -1,0 +1,34 @@
+  <header class="all_banner hide-on-med-and-down">
+
+    <div class="logo-bg">
+      <img src="{{"assets/img/logo-mds-big.png"}}" alt="">
+    </div>
+
+    <div class="carousel carousel-slider center" data-indicators="true">
+
+      <a class="slider-left-arrow" onclick="$('.carousel').carousel('prev');"><i class="material-icons white-text">keyboard_arrow_left</i></a>
+      <a class="slider-right-arrow" onclick="$('.carousel').carousel('next');"><i class="material-icons white-text">keyboard_arrow_right</i></a>
+
+      {% for banner in site.banner %}
+
+        <div class="carousel-item white-text" href="#one!">
+          <div class="quoteWidth">
+              <h2>{{ banner.banner-headline }}</h2>
+              <p>{{ banner.banner-text }}</p>
+            </div>
+          <img src="{{ site.baseurl }}{% include directory url=banner.url %}{{ banner.images[0].url }}" alt="">
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+    <script type="text/javascript">
+      $('.carousel.carousel-slider').carousel({fullWidth: true});
+    </script>
+
+  </header>
+
+  <header class="hide-on-large-only">
+    <img src="{{"assets/img/logo-mds-big.png"}}" alt="" style="width: 100%;">
+  </header>
